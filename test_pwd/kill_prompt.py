@@ -5,6 +5,6 @@ while True:
     try:
         hwnd3 = win32gui.FindWindow("#32770", "提示")
         if hwnd3:
-            win32api.SendMessage(hwnd3, win32con.WM_CLOSE, None, 0) 
+            win32api.SendMessage(hwnd3, win32con.WM_CLOSE, None, 0)
     except:
         pass
