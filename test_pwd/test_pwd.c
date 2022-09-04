@@ -7,7 +7,7 @@ int main(int argc, char **argv){
     srand(time(NULL));
     int r = rand() % 100000;
     char w_name[] = "00000";
-    itoa(r, w_name, 10);
+    itoa(r, w_name, 10); 
 
     HWND hwnd;
     while (1)

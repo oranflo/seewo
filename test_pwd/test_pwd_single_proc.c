@@ -9,7 +9,7 @@ int main(int start_point){
     {
         hwnd = FindWindow("UninstallVerify", NULL);
         if(hwnd != NULL){
-            break;
+            break; 
         }
     }
     HWND hwnd1 = FindWindowEx(hwnd, NULL, "Edit", NULL);

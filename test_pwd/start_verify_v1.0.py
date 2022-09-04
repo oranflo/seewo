@@ -9,8 +9,8 @@ def get_six_len_pwd(x: int):
     y = len(x)
     y = 6 - y
     x = "0" * y + x
-    return x
-
+    return x 
+    
 # ### 启动关对话框的进程
 # Popen("kill_prompt.exe")
 
